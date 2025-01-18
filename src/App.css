@@ -1,0 +1,112 @@
+.hero-section {
+  background-color: #ffffff;
+}
+
+.hero-section h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.cont-img{
+  margin: 0 auto;
+}
+
+.logo-img{
+  width: 126px;
+
+  @media(min-width: 768px) {
+    width: 176px;
+  }
+}
+
+.icon-img{
+  width: 48px;
+  height: 48px;
+}
+
+.faq-section {
+  background-color: #f8f9fa;
+  padding: 40px 0;
+}
+
+.accordion-button {
+  font-weight: bold;
+}
+
+.accordion-body {
+  color: #555;
+}
+
+button.btn-danger {
+  background-color: #ff4d4f;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+
+.faq-section,
+.blog-section,
+.signup-section {
+  padding: 4rem 0;
+}
+
+.blog-section .card {
+  border: none;
+  transition: transform 0.3s ease;
+}
+
+.blog-section .card:hover {
+  transform: translateY(-5px);
+}
+
+.footer-section {
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+.footer-section h5 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.footer-section ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.footer-section ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-section ul li .badge {
+  font-size: 0.75rem;
+}
+
+.footer-logo {
+  max-width: 100px;
+}
+
+.footer-bottom {
+  border-top: 1px solid #eaeaea;
+  padding-top: 1rem;
+}
+
+.rounded-circle{
+  width: 64px;
+  height: 64px;
+}
+
+.avt-img{
+  height: 56px;
+  width: 120px;
+}
+
+.blob-img{
+  height: 240px;
+  width: 384px;
+}
+
+.color-white{
+  color: #fff !important;
+}
